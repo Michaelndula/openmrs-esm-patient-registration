@@ -2,15 +2,15 @@ name: Node.js CI
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
   release:
     types:
       - created
 
 env:
-  ESM_NAME: "@openmrs/esm-patient-registration-app"
+  ESM_NAME: "@ssemr/esm-patient-registration-app"
   JS_NAME: "openmrs-esm-patient-registration-app.js"
 
 jobs:
