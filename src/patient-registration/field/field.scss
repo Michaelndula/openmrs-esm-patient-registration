@@ -1,0 +1,22 @@
+@import "../../root.scss";
+.productiveHeading02 {
+    @include carbon--type-style("productive-heading-02");
+    margin-bottom: 1rem;
+}
+
+.productiveHeading02Light {
+    @include carbon--type-style("productive-heading-02");
+    margin-bottom: 1rem;
+    color: #525252;
+}
+
+.fieldRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.fieldColumn {
+  flex: 1;
+  margin-right: 16px;
+}
