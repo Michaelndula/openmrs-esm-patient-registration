@@ -14,7 +14,7 @@ interface InputProps {
   placeholder?: string;
 }
 
-export const PhoneField: React.FC<InputProps> = props => {
+export const PhoneField: React.FC<InputProps> = ({ props }) => {
   const { t } = useTranslation();
   const [countryCode, setCountryCode] = useState('');
 

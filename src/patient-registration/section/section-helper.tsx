@@ -40,7 +40,7 @@ export const getField = (fieldName: string) => {
     case Field.Email:
       return <EmailField />;
     case Field.Phone:
-      return <PhoneField />;
+      return <PhoneField id={''} name={''} labelText={''} light={false} />;
     case Field.Name:
       return <NameField />;
     case Field.Gender:
